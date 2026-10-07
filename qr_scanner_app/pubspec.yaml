@@ -1,0 +1,46 @@
+name: qr_scanner_app
+description: "Ứng dụng di động quét mã QR và tạo mã QR đa năng với Flutter."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Quét mã QR bằng Camera và từ thư viện ảnh
+  mobile_scanner: ^6.0.4
+
+  # Chọn hình ảnh từ Thư viện (Gallery)
+  image_picker: ^1.1.2
+
+  # Tạo và hiển thị mã QR
+  qr_flutter: ^4.1.0
+
+  # Mở liên kết Web / Gọi điện / Gửi mail
+  url_launcher: ^6.3.1
+
+  # Chia sẻ mã QR và nội dung
+  share_plus: ^10.1.2
+
+  # Quản lý đường dẫn lưu ảnh tạm thời
+  path_provider: ^2.1.5
+
+  # Quản lý lưu trữ lịch sử offline
+  shared_preferences: ^2.3.2
+
+  # Định dạng thời gian
+  intl: ^0.19.0
+
+  # Icon đẹp mắt
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
